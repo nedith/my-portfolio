@@ -2,7 +2,6 @@
 
 > This Project is about setting up my portifolio and a mobile version skeleton
 
-
 ## Built With
 
 - HTML
@@ -33,15 +32,15 @@ Open index.html in the browser
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@nedith](https://github.com/nedith)
+- Twitter: [@edithnaisanga](https://twitter.com/edithnaisanga)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/https://www.linkedin.com/in/edith-naisanga-19396856/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/nedith/portifolio-setup/issues).
 
 ## Show your support
 
