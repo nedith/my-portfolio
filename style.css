@@ -32,6 +32,7 @@ a {
 
 .nav-bar > img {
   margin-right: 30px;
+  cursor: pointer;
 }
 
 main {
@@ -85,7 +86,7 @@ a > i {
   font-size: 25px;
 }
 
-li:hover {
+a:hover {
   color: #7f8cff;
 }
 
