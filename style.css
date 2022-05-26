@@ -26,7 +26,7 @@ body {
   line-height: 20px;
 }
 
-.logo > a {
+a {
   text-decoration: none;
 }
 
@@ -35,69 +35,65 @@ body {
 }
 
 main {
-  height: 100vh; 
+  height: 100vh;
   background-image: url(./images/header-shapes\ mobile.png);
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 0; 
-  display: flex; 
+  padding: 0;
+  display: flex;
   justify-content: center;
   border-radius: 0 0 0 15px;
-}   
+}
 
-article { 
+article {
   color: #344563;
-  font-weight: 400px; 
+  font-weight: 400px;
   font-size: 16px;
-  line-height: 24px; 
-} 
+  line-height: 24px;
+}
 
-h1 { 
+h1 {
   font-size: 50px;
   line-height: 52px;
   color: #172b4d;
-  margin-bottom: 0; 
+  margin-bottom: 0;
   margin-top: 60px;
-} 
-
-a {
-text-decoration: none;
 }
 
-ul { 
+ul {
   display: flex;
   margin: 0;
   padding-left: 0;
-} 
-     
-li { 
-  list-style: none; 
-  margin: 0 20px 10px 0; 
-  font-size: 15px; 
-} 
+}
+
+li {
+  list-style: none;
+  margin: 0 20px 10px 0;
+  font-size: 15px;
+}
 
 ul > li {
   margin-right: 0 20px 0 0;
   color: #505f79;
-  font-size: 18px; 
-} 
-
-a > i { 
-  font-size: 25px; 
-} 
-
-li:hover { 
-  color: #7f8cff; 
-} 
-
-li:active {
-color: #2230d2; 
+  font-size: 18px;
 }
 
-.profile > h4 { 
-  margin: 10px 0 5px 0; 
-  font-size: 16px; 
-  font-weight: 500; 
+a > i {
+  font-size: 25px;
+}
+
+li:hover {
+  color: #7f8cff;
+}
+
+li:active {
+  color: #2230d2;
+}
+
+.profile > h4 {
+  margin: 10px 0 5px 0;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 24px;
-  color: #7f8cff; 
-} 
+  color: #7f8cff;
+}
