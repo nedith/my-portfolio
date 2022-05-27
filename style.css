@@ -78,7 +78,7 @@ main {
 }
 
 .icons {
-  margin-left: 0
+  margin-left: 1px;
 }
 
 a > i {
