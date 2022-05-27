@@ -93,7 +93,7 @@ li:active {
   margin-left: 30px;
 }
 
-/* work section styling*/
+/* work section styling */
 .portifolio {
   display: grid;
   grid-template-rows: auto auto auto auto;
@@ -102,7 +102,7 @@ li:active {
 }
 
 .project {
-  background-color: #FFFFFF;
+  background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   width: 90%;
@@ -125,11 +125,11 @@ li:active {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .project-box h4 {
-  color: #7A869A;
+  color: #7a869a;
 }
 
 h4 span {
@@ -156,7 +156,6 @@ h4 span {
   border-radius: 8px;
   padding: 5px 10px;
   display: inline-block;
-  
 }
 
 .project ul,
@@ -175,7 +174,6 @@ button {
   padding: 8px 8px;
   margin-top: 1rem;
   align-self: flex-start;
-
 }
 
 .see {
@@ -194,7 +192,7 @@ button:active {
   box-shadow: none;
 }
 
-/* About section styles*/
+/* About section styles */
 .socials li a {
   color: #344563;
 }
@@ -217,7 +215,7 @@ button:active {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .about h3 {
@@ -241,7 +239,7 @@ button:active {
 }
 
 .about .connect {
-  color: #7F8CFF;
+  color: #7f8cff;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -278,4 +276,3 @@ button:active {
   margin-bottom: 10px;
   padding: 10px;
 }
-
