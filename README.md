@@ -1,6 +1,6 @@
-# Portfolio: setup and mobile version skeleton
+# Portfolio: Mobile Version
 
-> This Project is about setting up my portifolio and a mobile version skeleton
+> This Project is about setting up a mobile version of my portifolio
 
 ## Built With
 
