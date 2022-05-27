@@ -28,6 +28,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #6070ff;
 }
 
 .nav-bar > img {
@@ -63,6 +64,10 @@ main {
   margin-top: 60px;
 }
 
+.profile p {
+  margin-top: 20px;
+}
+
 .socials {
   display: flex;
   margin: 0;
@@ -70,6 +75,10 @@ main {
   margin-left: 30px;
   list-style-type: none;
   gap: 15px;
+}
+
+.icons {
+  margin-left: 0px;
 }
 
 a > i {
