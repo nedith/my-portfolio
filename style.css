@@ -105,6 +105,8 @@ li:active {
   background-color: #FFFFFF;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .project-box {
