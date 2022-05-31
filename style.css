@@ -285,3 +285,78 @@ button:active {
   margin-bottom: 10px;
   padding: 10px;
 }
+
+/* Contact section styles */
+.contact-info {
+  background-color: #6070FF;
+  background-image: url(./images/contact-img.png);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  border-top-left-radius: 50px; 
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.contact-headings {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contact-headings > h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.contact-headings > p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #EBEBFF;
+  margin-bottom: 30px;
+}
+
+input {
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 15px ;
+  width: 100%;
+  margin-top: 10px;
+}
+
+form {
+  width: 100%;
+  padding: 18px 5px;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 10px;
+  font-weight: 400;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  color: #B3BAC5;
+  padding: 13px;
+  font-size: 15px;
+  line-height: 24px;
+  resize: none;
+  height: 15rem;
+}
+
+form > button:hover {
+  background-color: #6070FF;
+  color: #FFFFFF;
+}
+
+form button {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+}
