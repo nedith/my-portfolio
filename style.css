@@ -324,6 +324,7 @@ input {
   padding: 15px;
   width: 100%;
   margin-top: 10px;
+  color: #172b4d;
 }
 
 form {
@@ -337,7 +338,7 @@ textarea {
   font-weight: 400;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  color: #b3bac5;
+  color: #172b4d;
   padding: 13px;
   font-size: 15px;
   line-height: 24px;
@@ -348,6 +349,12 @@ textarea {
 form button:hover {
   background-color: #6070ff;
   color: #fff;
+}
+
+form button:active {
+  background: #2230d2;
+  color: #fff;
+  box-shadow: none;
 }
 
 .click:hover {
