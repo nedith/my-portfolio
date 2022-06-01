@@ -7,6 +7,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
+  background-color: #e5e5e5;
 }
 
 .nav-bar {
@@ -15,6 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #FFFFFF;
 }
 
 .logo {
@@ -61,6 +63,7 @@ main {
   display: flex;
   justify-content: center;
   border-radius: 0 0 0 50px;
+  background-color: #FFFFFF;
 }
 
 .profile article {
@@ -387,21 +390,6 @@ form button:active {
   box-shadow: none;
 }
 
-/*Desktop*/
-@media only screen and (min-width: 768px) {
-  .nav-bar img {
-    display: none;
-  }
-  .profile h1{
-    font-size: 48px;
-    line-height: 60px;
-  }
-
-  .portfolio {
-    display: none;
-  }
-}
-
 /* Mobile*/
 @media only screen and (max-width: 768px) {
   .nav-links {
@@ -413,6 +401,54 @@ form button:active {
   }
 }
 
+/*Desktop*/
+@media only screen and (min-width: 768px) {
+  main {
+    padding-left: 250px;
+  }
+
+  .logo{
+    padding-left: 80px;
+  } 
+
+  .nav-links {
+    margin-right: 50px;
+  }
+
+  .nav-bar img {
+    display: none;
+  }
+  .profile h1{
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .portfolio {
+    display: none;
+  }
+
+  .desktop-project-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .desktop-project {
+    width: auto;
+    margin: 100px 30px;
+  }
+  
+  /* .desktop-img {
+    width: 544px;
+    height: 448px;
+  } */
+  
+  .roles {
+  display: flex;
+  flex-direction: column;
+  }
+}
+
 /* .desktop-portfolio {
   display: grid;
   grid-template-rows: auto auto auto auto;
@@ -420,23 +456,4 @@ form button:active {
   row-gap: 100px;
 } */
 
-.desktop-project-box {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
 
-.desktop-project {
-  width: auto;
-  margin: 0 30px;
-}
-
-/* .desktop-img {
-  width: 544px;
-  height: 448px;
-} */
-
-.roles {
-display: flex;
-flex-direction: column;
-}
