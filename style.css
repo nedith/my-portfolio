@@ -36,6 +36,36 @@ a {
   cursor: pointer;
 }
 
+.nav-links {
+  list-style-type: none;
+}
+
+.nav-links a {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding-right: 20px;
+  color: #344563;
+}
+
+/*Desktop*/
+@media only screen and (min-width: 768px) {
+  .nav-bar img {
+    display: none;
+  }
+}
+
+/* Mobile*/
+@media only screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
+
+.nav-links li {
+  display: inline;
+}
+
 main {
   height: 100vh;
   background-image: url(./images/header-shapes\ mobile.png);
