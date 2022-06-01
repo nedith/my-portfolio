@@ -48,24 +48,6 @@ a {
   color: #344563;
 }
 
-/*Desktop*/
-@media only screen and (min-width: 768px) {
-  .nav-bar img {
-    display: none;
-  }
-  .profile h1{
-    font-size: 48px;
-    line-height: 60px;
-  }
-}
-
-/* Mobile*/
-@media only screen and (max-width: 768px) {
-  .nav-links {
-    display: none;
-  }
-}
-
 .nav-links li {
   display: inline;
 }
@@ -138,7 +120,7 @@ li:active {
 }
 
 /* work section styling */
-.portifolio {
+.portfolio {
   display: grid;
   grid-template-rows: auto auto auto auto;
   margin: 50px 0;
@@ -403,4 +385,58 @@ form button:active {
   color: white;
   background: #2230d2;
   box-shadow: none;
+}
+
+/*Desktop*/
+@media only screen and (min-width: 768px) {
+  .nav-bar img {
+    display: none;
+  }
+  .profile h1{
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .portfolio {
+    display: none;
+  }
+}
+
+/* Mobile*/
+@media only screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .desktop-portfolio {
+    display: none;
+  }
+}
+
+/* .desktop-portfolio {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  margin: 50px 0;
+  row-gap: 100px;
+} */
+
+.desktop-project-box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.desktop-project {
+  width: auto;
+  margin: 0 30px;
+}
+
+/* .desktop-img {
+  width: 544px;
+  height: 448px;
+} */
+
+.roles {
+display: flex;
+flex-direction: column;
 }
