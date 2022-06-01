@@ -53,6 +53,10 @@ a {
   .nav-bar img {
     display: none;
   }
+  .profile h1{
+    font-size: 48px;
+    line-height: 60px;
+  }
 }
 
 /* Mobile*/
@@ -69,7 +73,7 @@ a {
 main {
   height: 100vh;
   background-image: url(./images/header-shapes\ mobile.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
   display: flex;
@@ -79,7 +83,7 @@ main {
 
 .profile article {
   color: #344563;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   margin-left: 30px;
@@ -87,7 +91,8 @@ main {
 }
 
 .profile h1 {
-  font-size: 50px;
+  font-weight: 700;
+  font-size: 40px;
   line-height: 52px;
   color: #172b4d;
   margin-bottom: 0;
@@ -202,7 +207,7 @@ h4 span {
   padding: 0;
 }
 
-button {
+.click {
   color: #396df2;
   background-color: #ebebff;
   border: 1px solid #6070ff;
@@ -242,6 +247,7 @@ form button {
   justify-content: center;
   width: 84%;
   margin: 0 auto;
+  border-top-right-radius: 30px;
 }
 
 .about h2 {
