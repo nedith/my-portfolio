@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .logo {
@@ -63,7 +63,7 @@ main {
   display: flex;
   justify-content: center;
   border-radius: 0 0 0 50px;
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .profile article {
@@ -390,7 +390,7 @@ form button:active {
   box-shadow: none;
 }
 
-/* Mobile*/
+/* Mobile */
 @media only screen and (max-width: 767px) {
   .nav-links {
     display: none;
@@ -399,10 +399,9 @@ form button:active {
   #portfolio-container {
     display: none;
   }
+}
 
-} 
-
-/*Desktop*/
+/* Desktop */
 @media only screen and (min-width: 768px) {
   main {
     padding-left: 250px;
@@ -411,9 +410,9 @@ form button:active {
     background-repeat: no-repeat;
   }
 
-  .logo{
+  .logo {
     padding-left: 80px;
-  } 
+  }
 
   .nav-links {
     margin-right: 50px;
@@ -422,7 +421,8 @@ form button:active {
   .nav-bar img {
     display: none;
   }
-  .profile h1{
+
+  .profile h1 {
     font-size: 48px;
     line-height: 60px;
   }
@@ -431,76 +431,95 @@ form button:active {
     display: none;
   }
 
-  /* work section*/
+  /* work section */
   #portfolio-container {
     margin-left: 100px;
-    margin-right: 100px ;
-}
+    margin-right: 100px;
+  }
 
-.portfolio-desc h1 {
-    font-family: 'Poppins';
+  .portfolio-desc h1 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
-    margin-bottom: 0px;
-}
+    color: #091e42;
+    margin-bottom: 0;
+  }
 
-#portfolio-list {
+  #portfolio-list {
     display: flex;
     flex-direction: column;
-}
+  }
 
-.portfolio-item {
-    border: 1px solid #DFE1E6;
+  .portfolio-item {
+    border: 1px solid #dfe1e6;
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 46px;
     padding: 24px 46px 24px 24px;
     border-radius: 24px;
-    background: #FFFFFF;
+    background: #fff;
     margin-top: 166px;
     width: 100%;
     padding-right: 4rem;
-}
+  }
 
-ul.tech{
+  .stack li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul.skills li {
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    list-style: none;
+  }
+
+  ul.tech {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     gap: 12px;
     width: 330px;
     height: 40px;
     margin-bottom: 24px;
-}
+  }
 
-ul.tech li.first {
+  ul.tech li.first {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
     color: #344563;
-}
+  }
 
-ul.tech li {
+  ul.tech li {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    color: #6B778C;
+    color: #6b778c;
     padding-left: 10px;
-}
+  }
 
-ul.tech li:nth-child(1) {
+  ul.tech li:nth-child(1) {
     list-style: none;
-    padding-left: 0px;
-}
+    padding-left: 0;
+  }
 
-.project-summary {
+  .project-summary {
     width: 496px;
     height: 50px;
     font-family: 'Poppins', sans-serif;
@@ -509,35 +528,21 @@ ul.tech li:nth-child(1) {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-}
+  }
 
-ul.skills {
+  ul.skills {
     display: flex;
     gap: 24px;
     height: 24px;
     justify-content: flex-start;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     margin-bottom: 45px;
-}
+  }
 
-ul.skills li{
-    padding: 4px 12px;
-    background: #EBEBFF;
-    border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070FF;
-    list-style: none;
-}
-
-.portfolio-desc button{
+  .portfolio-desc button {
     height: 24px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -546,15 +551,15 @@ ul.skills li{
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #396DF2;
+    color: #396df2;
     padding: 24px;
     border-radius: 10px;
-    border: 1px solid #396DF2;
-}
-  
+    border: 1px solid #396df2;
+  }
+
   .roles {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   .about-container {
@@ -565,17 +570,17 @@ ul.skills li{
     margin-top: 166px;
     padding-bottom: 30px;
   }
-  
+
   .desktop-about {
     display: flex;
     flex-direction: column;
   }
-  
+
   .desktop-about p {
     font-size: 18px;
     font-weight: 500;
   }
-  
+
   .desktop-about h2 {
     font-weight: 700;
     font-size: 40px;
@@ -586,11 +591,6 @@ ul.skills li{
     display: flex;
     flex-direction: row;
     gap: 10px;
-  }
-
-  .stack li {
-    display: flex;
-    flex-direction: column;
   }
 
   .desktop-stack {
@@ -612,7 +612,7 @@ ul.skills li{
   .form-submit {
     margin-top: 10px;
     margin-bottom: 127px;
-    background: #FFFFFF;
+    background: #fff;
     border-radius: 8px;
   }
 }
