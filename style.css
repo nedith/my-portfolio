@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   min-height: 100vh;
   background-color: #e5e5e5;
 }
@@ -26,13 +26,14 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  /* transition: font-size 3s  background-color 3s; */
+  transition: font-size 3s background-color 3s;
 }
 
-/* .logo:hover {
+.logo:hover {
   background-color: #4d0606;
+  font-size: 24px;
   transform: rotate(45deg);
-} */
+}
 
 a {
   text-decoration: none;
@@ -450,7 +451,7 @@ form button:active {
   }
 
   .portfolio-desc h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -486,7 +487,7 @@ form button:active {
     padding: 4px 12px;
     background: #ebebff;
     border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -508,7 +509,7 @@ form button:active {
   }
 
   ul.tech li.first {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -517,7 +518,7 @@ form button:active {
   }
 
   ul.tech li {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -534,7 +535,7 @@ form button:active {
   .project-summary {
     width: 496px;
     height: 50px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -554,7 +555,7 @@ form button:active {
 
   .portfolio-desc button {
     height: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -711,3 +712,5 @@ form button:active {
 .opacity-0 {
   opacity: 0;
 }
+
+
