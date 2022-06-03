@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   min-height: 100vh;
   background-color: #e5e5e5;
 }
@@ -26,6 +26,13 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  transition: font-size 3s background-color 3s;
+}
+
+.logo:hover {
+  background-color: #4d0606;
+  font-size: 24px;
+  transform: rotate(45deg);
 }
 
 a {
@@ -444,7 +451,7 @@ form button:active {
   }
 
   .portfolio-desc h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -480,7 +487,7 @@ form button:active {
     padding: 4px 12px;
     background: #ebebff;
     border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -502,7 +509,7 @@ form button:active {
   }
 
   ul.tech li.first {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -511,7 +518,7 @@ form button:active {
   }
 
   ul.tech li {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -528,7 +535,7 @@ form button:active {
   .project-summary {
     width: 496px;
     height: 50px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -548,7 +555,7 @@ form button:active {
 
   .portfolio-desc button {
     height: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -659,4 +666,47 @@ form button:active {
     height: 48px;
     border: none;
   }
+}
+
+.move-in {
+  animation-name: moveIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  position: relative;
+}
+
+@keyframes moveIn {
+  from {
+    top: -1000px;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation-name: fadeIn;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.delay-3 {
+  animation-delay: 2s;
+}
+
+.opacity-0 {
+  opacity: 0;
 }
