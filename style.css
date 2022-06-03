@@ -29,10 +29,10 @@ body {
   /* transition: font-size 3s  background-color 3s; */
 }
 
-.logo:hover {
+/* .logo:hover {
   background-color: #4d0606;
   transform: rotate(45deg);
-}
+} */
 
 a {
   text-decoration: none;
@@ -668,11 +668,6 @@ form button:active {
 }
 
 /*Translations and animations*/
-
-/* .logo-rotated {
-  transform: rotate(45deg);
-  background-color: pink;
-} */
 
 .move-in {
   animation-name: moveIn;
