@@ -604,10 +604,6 @@ form button:active {
   }
 
   .contact-info {
-    /* background-image: url(./images/desktopbg-img.png); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position: right 0 top 5px; */
     margin-top: 0;
     padding: 0 25%;
     padding-bottom: 50px;
