@@ -668,8 +668,6 @@ form button:active {
   }
 }
 
-/*Translations and animations*/
-
 .move-in {
   animation-name: moveIn;
   animation-duration: 2s;
@@ -712,5 +710,3 @@ form button:active {
 .opacity-0 {
   opacity: 0;
 }
-
-
