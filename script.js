@@ -9,5 +9,5 @@ mobileMenu.classList.toggle('active');
 
 document.querySelectorAll('.menu-item').forEach((n) => n.addEventListener('click', () => {
 hamburger.classList.remove('active');
-mobileMenu.classList.remove('active');   
+mobileMenu.classList.remove('active');
 }));
