@@ -46,12 +46,9 @@ a {
 } */
 
 .hamburger {
+  position: absolute;
   margin-right: 30px;
   cursor: pointer;
-}
-
-.hamburger {
-  position: absolute;
   right: 1rem;
   width: 25px;
   height: 20px;
@@ -66,6 +63,10 @@ a {
   background-color: #6070ff;
   border-radius: 2px;
   z-index: 999;
+}
+
+.hamburger.active .bar {
+  background-color: #ffff;
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -252,6 +253,7 @@ h4 span {
 }
 
 /* About section styles */
+
 .socials li a {
   color: #344563;
 }
@@ -438,13 +440,9 @@ form button:active {
   box-shadow: none;
 }
 
-.hamburger.active .bar {
-  background-color: #ffff;
-}
-
 /* Mobile-menu */
+
 .mobile-menu {
-  width: 375px;
   position: fixed;
   top: 0;
   left: 0;
@@ -457,6 +455,7 @@ form button:active {
   z-index: 888;
   backdrop-filter: blur(10px);
 }
+
 .mobile-menu li {
   list-style: none;
   font-size: 32px;
