@@ -10,8 +10,7 @@
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-
-
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -29,6 +28,13 @@
             <li><a href="#desktop-card">Portfolio</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <!-- mobile menu -->
+          <ul class="mobile-menu">
+            <li class="menu-item"><a href="#mobile-card">Portfolio</a></li>
+            <li class="menu-item"><a href="#about">About</a></li>
+            <li class="menu-item"><a href="#contact">Contact</a></li>
           </ul>
       </nav>
     </header>
@@ -54,7 +60,7 @@
              <!--Mobile work section-->
              <section class="portfolio">
                <article class="project">
-                 <div class="project-box">
+                 <div class="project-box" id="mobile-card">
                   <img src="./images/Snapshoot1.png" alt="">
                   <h3>Tonic</h3>
                   <h4><span>CANOPY</span>&nbsp;
