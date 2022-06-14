@@ -12,6 +12,7 @@ document.querySelectorAll('.menu-item').forEach((n) => n.addEventListener('click
   mobileMenu.classList.remove('active');
 }));
 
+// Popup window
 const workContainer = document.querySelector('.popup');
 const workBox = workContainer.querySelectorAll('.pop');
 
