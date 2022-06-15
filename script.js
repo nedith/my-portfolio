@@ -12,7 +12,6 @@ document.querySelectorAll('.menu-item').forEach((n) => n.addEventListener('click
   mobileMenu.classList.remove('active');
 }));
 
-
 // Project Card Data
 const datacards = [
   {
@@ -25,7 +24,7 @@ const datacards = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     tags: ['html', 'css', 'javascript'],
     live_version: 'https://github.com/nedith/portifolio-setup.git',
-    source_code: 'https://github.com/nedith/portifolio-setup.git'
+    source_code: 'https://github.com/nedith/portifolio-setup.git',
   },
   {
     project_img: 'assest/pic2.PNG',
@@ -198,6 +197,7 @@ seeProjectBtn.forEach((button, index) => {
 closeModalBtn.addEventListener('click', () => {
   modal.style.display = 'none';
   body.style.overflow = 'auto';
+});
 
 // Email validation
 function showMessage(input, message, type) {
@@ -243,5 +243,4 @@ form.addEventListener('submit', (event) => {
   if (emailValid) {
     form.submit();
   }
-
 });
