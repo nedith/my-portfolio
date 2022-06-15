@@ -206,8 +206,9 @@
         </p>
       </article>
 
-      <form action="https://formspree.io/f/xgeddrdw" method="POST">
+      <form action="https://formspree.io/f/xgeddrdw" method="POST" id="form">
         <input
+          id="fullname"
           type="text"
           name="username"
           maxlength="30"
@@ -215,9 +216,10 @@
           required
         />
 
-        <input type="email" name="email" placeholder="Email" required />
+        <input onchange="handleChange()" type="email" id="email" name="email" placeholder="Email" required />
 
         <textarea
+          id="message-input"
           name="message"
           cols="30"
           rows="10"
