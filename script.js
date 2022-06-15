@@ -23,8 +23,8 @@ const datacards = [
     project_description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     tags: ['html', 'css', 'javascript'],
-    live_version: 'https://github.com/AACHOURMOHAMED/portfolio-microverse.git',
-    source_code: 'https://github.com/AACHOURMOHAMED/portfolio-microverse.git',
+    live_version: 'https://github.com/nedith/portifolio-setup.git',
+    source_code: 'https://github.com/nedith/portifolio-setup.git'
   },
   {
     project_img: 'assest/pic2.PNG',
@@ -35,8 +35,8 @@ const datacards = [
     project_description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     tags: ['html', 'css', 'javascript'],
-    live_version: 'https://github.com/AACHOURMOHAMED/portfolio-microverse.git',
-    source_code: 'https://github.com/AACHOURMOHAMED/portfolio-microverse.git',
+    live_version: 'https://github.com/nedith/portifolio-setup.git',
+    source_code: 'https://github.com/nedith/portifolio-setup.git',
   },
   {
     project_img: 'assest/pic3.PNG',
@@ -47,8 +47,8 @@ const datacards = [
     project_description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     tags: ['html', 'css', 'javascript'],
-    live_version: 'https://github.com/AACHOURMOHAMED/portfolio-microverse.git',
-    source_code: 'https://github.com/AACHOURMOHAMED/portfolio-microverse.git',
+    live_version: 'https://github.com/nedith/portifolio-setup.git',
+    source_code: 'https://github.com/nedith/portifolio-setup.git',
   },
   {
     project_img: 'assest/pic4.PNG',
@@ -59,8 +59,8 @@ const datacards = [
     project_description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     tags: ['html', 'css', 'javascript'],
-    live_version: 'https://github.com/AACHOURMOHAMED/portfolio-microverse.git',
-    source_code: 'https://github.com/AACHOURMOHAMED/portfolio-microverse.git',
+    live_version: 'https://github.com/nedith/portifolio-setup.git',
+    source_code: 'https://github.com/nedith/portifolio-setup.git',
   },
 ];
 
