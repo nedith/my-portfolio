@@ -1116,3 +1116,8 @@ form button:active {
 .opacity-0 {
   opacity: 0;
 }
+
+small {
+  color: red;
+  margin-top: 5px;
+}
