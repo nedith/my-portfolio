@@ -201,13 +201,14 @@
         <h2>Contact me</h2>
         <p>
           If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
+          that you need built or a project that  coding. I’d love to help
           with it
         </p>
       </article>
 
-      <form action="https://formspree.io/f/xgeddrdw" method="POST">
+      <form action="https://formspree.io/f/xgeddrdw" method="POST" id="form">
         <input
+          id="fullname"
           type="text"
           name="username"
           maxlength="30"
@@ -215,9 +216,10 @@
           required
         />
 
-        <input type="email" name="email" placeholder="Email" required />
+        <input onchange="handleChange()" type="email" id="email" name="email" placeholder="Email" required />
 
         <textarea
+          id="message-input"
           name="message"
           cols="30"
           rows="10"

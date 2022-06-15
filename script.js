@@ -244,3 +244,31 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+// Local storage
+const fullNameForm = document.getElementById('fullname');
+const emailForm = document.getElementById('email');
+const commentForm = document.getElementById('message-input');
+
+function handleChange() {
+  const formData = {
+    fullName: fullNameForm.value,
+    email: emailForm.value,
+    comment: commentForm.value,
+  };
+  localStorage.setItem('form', JSON.stringify(formData));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const getFormValue = localStorage.getItem('form');
+  if (getFormValue) {
+    const formObject = JSON.parse(getFormValue);
+    fullNameForm.value = formObject.fullName;
+    emailForm.value = formObject.email;
+    commentForm.value = formObject.comment;
+  }
+});
+
+fullNameForm.onchange = handleChange;
+emailForm.onchange = handleChange;
+commentForm.onchange = handleChange;
