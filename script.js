@@ -269,7 +269,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-
-
-
-
+fullNameForm.onchange = handleChange;
+emailForm.onchange = handleChange;
+commentForm.onchange = handleChange;
