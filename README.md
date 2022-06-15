@@ -30,11 +30,17 @@ Open index.html in the browser
 
 ## Authors
 
-👤 **Author1**
+👤 **EdithNaisanga**
 
 - GitHub: [@nedith](https://github.com/nedith)
 - Twitter: [@edithnaisanga](https://twitter.com/edithnaisanga)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/https://www.linkedin.com/in/edith-naisanga-19396856/)
+
+👤 **AshourMohamed**
+
+- GitHub: [@githubhandle](https://github.com/AACHOURMOHAMED)
+- Twitter: [@twitterhandle](https://twitter.com/MohamedAachour3)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mohamed-aachour-25405b215)
 
 ## 🤝 Contributing
 
