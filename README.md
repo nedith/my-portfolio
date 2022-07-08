@@ -1,11 +1,12 @@
-# Portfolio: Mobile Version
+# Portfolio
 
-> This Project is about setting up a mobile version of my portifolio
+> This is my responsive portfolio website
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScript
 - Figma
 
 ## Live Demo 
