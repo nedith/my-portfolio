@@ -11,7 +11,7 @@
 
 ## Live Demo 
 
-[Live Demo Link](https://nedith.github.io/portifolio-setup/)
+[Live Demo Link](https://nedith.github.io/my-portfolio/)
 
 ## Getting Started
 
